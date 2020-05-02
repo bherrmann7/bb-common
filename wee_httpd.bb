@@ -2,15 +2,6 @@
 
 ;; A wee multi-threaded web server
 
-;; Usage
-;;
-;; (start-web-server (fn [path] (str "Yo, " path)))
-;;
-;; Note: server runs in own thread, good for using emacs/cider to eval
-;; handler function when running, but in a script need await forever
-;; at end.
-;; (while true (Thread/sleep 1000))
-
 (ns wee-httpd)
 
 (import (java.net ServerSocket))
@@ -111,6 +102,8 @@
   (page  "A simple web server written in babashka")) 
 
 
+;; A thing for matching a path request with a path expression;
+;; ie (path-mather "/j*" "/joe") => true
 (defn path-matcher [ path-expr path ]
   (println "path-matcher" path-expr path )
   (let [match 
