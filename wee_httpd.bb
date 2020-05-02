@@ -1,6 +1,6 @@
 #!/usr/bin/env bb
 
-;; A wee mult-threaded web server
+;; A wee multi-threaded web server
 
 ;; Usage
 ;;
