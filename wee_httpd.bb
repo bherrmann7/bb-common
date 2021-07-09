@@ -45,7 +45,7 @@
                           (create-worker-thread client-socket request-handler )))))))
 
 
-;; I use bootstrap, it's pretty.
+;; I use bootstrap, it is pretty.
 (def header "
 <html>
   <head>
