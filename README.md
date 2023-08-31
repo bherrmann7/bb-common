@@ -1,8 +1,6 @@
 
 # bb-common
 
-some common things I use in scripts.
+Some common things I use in [babashka](https://babashka.org/)https://babashka.org/ scripts.
 
-Uses babashka
 
-https://babashka.org/
