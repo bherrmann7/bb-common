@@ -1,6 +1,8 @@
 
 # bb-common
 
-Some common things I use in https://babashka.org/ scripts.
+bb is short for babashka basics (see https://babashka.org/) 
+
+Currently there is only "wee-httpd", which is a tiny web server written in babashka.
 
 
